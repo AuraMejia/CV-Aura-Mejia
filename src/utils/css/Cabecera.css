@@ -1,0 +1,61 @@
+
+.Container_Textos {
+    background-color: #2b2448;
+    color: white;
+    margin: 5px;
+    display:flex;
+    height: 500px;
+}
+.Titulo_Cabecera h1{
+    text-align: center;
+    font-size: 70px;
+}
+.Titulo_Cabecera{
+    margin-right: 150px;
+    margin-top: 50px;
+    
+}
+.Container_foto1 img{
+    width: 60%;
+    height: 80%;
+    border-radius: 50%;
+    margin-top: 45px;
+    margin-left: 55px;
+}
+.Botones button{
+    background-color: #7F0505;
+    color: white;
+    border-radius: 15px;
+    font-size: 18px;
+    border: none;
+    justify-content: space-around;
+    margin: 15px;
+    padding: 10px;
+
+}
+/*RESPONSIVE DE 600 a 800*/
+@media screen and (min-width:600px) and (max-width: 800px){
+.Titulo_Cabecera {
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+.Titulo_Cabecera h1 {
+    font-size: 45px;
+}
+.Container_Textos{
+    width: 100%; 
+    margin: 0;  
+}
+.Botones button{
+    margin-left: 29px;
+}
+.Container_logo1 img{
+    margin-left: 28px;
+}
+.Container_Cabecera{
+    width: auto;
+}
+}

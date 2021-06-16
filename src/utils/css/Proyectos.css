@@ -1,0 +1,19 @@
+.Container_Proyectos{
+    display: flex;
+    margin-left: 23%;
+    align-items: center;
+    margin-top: -80px;
+}
+.Texto button{
+    background-color: #2B2448;
+    color: white;
+    border-radius: 25px;
+    font-size: 20px;
+
+}
+.Container_icono_project img{
+    width: 75%;
+    margin-left: 100px;
+    height: 75%;
+    
+}

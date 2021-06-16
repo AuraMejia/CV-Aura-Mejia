@@ -1,0 +1,47 @@
+.Habilidades{
+    background-color: #2B2448;
+    justify-content: space-between;
+    color: white;
+    display: flex;
+    margin-top: 35px;
+    padding: 25px;
+    
+}
+.Habilidades{
+    justify-content: center;
+
+}
+.Container_icono1 img{
+    display: flex;
+    width: 60%;
+    margin-top: 25px;
+    margin-left: 130px;
+
+}
+
+.Container_habilidades_2{
+    text-align: left;
+    margin-top: 89px; 
+
+ }
+ .Container_habilidades_1{
+    text-align: left;  
+    margin-left: 75px;
+ }
+ /*RESPONSIVE DE 600 a 800*/
+@media screen and (min-width:600px) and (max-width: 800px){
+    .Habilidades{
+        width: 100%;
+        
+    }   
+    .Container_habilidades_1{
+        margin-left: 15px;
+    }
+    .Container_habilidades_2{
+        margin-top: 70px;
+    }
+    .Container_icono1 img{
+        width: 80%;
+        margin-left: 20px;
+    }
+}

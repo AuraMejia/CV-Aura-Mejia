@@ -1,0 +1,41 @@
+.Container_Mi{
+    padding: 10px;
+    display: flex;
+    margin-top: 35px;
+}
+.Container_foto img{
+    display: flex;
+    width: 80%;
+    height: 100%;
+    margin-left: 25px;
+    border-radius: 15px;
+}
+.Descripcion{
+    background-color: #7F0505;
+    color: white;
+    padding: 35px;
+    text-align: justify;
+    width: 80%;
+    margin-left: 75px;
+    border-radius: 15px;
+}
+.Descripcion p{
+    font-size: 18px;
+    align-items: center;
+    align-content: center;
+}
+.Descripcion h1{
+    text-align: center;
+}
+/*Responsive: 600px to 800px*/
+@media screen and (min-width:600px) and (max-width: 800px){
+    .Descripcion{
+        margin-left: 29px;
+        width: 150%;
+    }
+    .Container_foto img{
+        margin-left: 45px;
+    }
+
+    
+}

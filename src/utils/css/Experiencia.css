@@ -1,0 +1,52 @@
+.Container_Experiencia{
+    display: flex;
+    margin-right: 75px;
+    margin-top: 5px;
+}
+.Desarrollo2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Desarrollo2 a{
+    color:white;
+    text-decoration: none;
+}
+.Container_imagen img{
+    width: 80%;
+    height: 80%;
+    margin-left: 98px;
+    border-radius: 15px;
+}
+.Descripcion1{
+    background-color: #7F0505;
+    color: white;
+    width: 70%;
+    margin-left: 75px;
+    text-align: center;
+    border-radius: 15px;
+    height: 350px;
+    margin-top: 65px;
+
+}
+.Descripcion1 h1{
+    text-align: center;
+}
+
+/*RESPONSIVE DE 600 a 800*/
+@media screen and (min-width:600px) and (max-width: 800px){
+    .Descripcion1{
+        width: 150%;
+        margin-top: -10px;
+        margin-left: 50px;
+        height: 100%;
+    }
+    .Container_imagen img{
+        margin-left: 80px;
+    }
+    .Container_Experiencia{
+        margin-right: 0px;
+        margin-top: 25px;
+    }
+    
+}

@@ -1,0 +1,10 @@
+.Pie_pagina{
+    background-color: #0F0144;
+    color: white;
+    font-size: 20px;
+    height: 35px;   
+}
+.Pie_pagina p{
+    justify-content: center;
+    align-items: center;
+}

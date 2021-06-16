@@ -1,0 +1,41 @@
+.Container_intereses{
+    display: flex;
+    margin-left: 65px;
+    margin-top: 65px;
+    margin-right: 65px;
+}
+.Descripcion3{
+        background-color: #7F0505;
+        color: white;
+        padding: 35px;
+        text-align: justify;
+        width: 60%;
+        border-radius: 15px;
+        height: 100%;
+        font-size: 18px;
+        margin-right: 55px;
+
+}
+.Descripcion3 h1{
+    text-align: center;
+    
+}
+.Container_foto4 img{
+    width: 70%;
+    height: 70%;
+    border-radius: 15px;
+}
+/*RESPONSIVE DE 600 a 800*/
+@media screen and (min-width:600px) and (max-width: 800px){
+    .Container_intereses{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .Container_foto4 img{
+        height: 100%;
+        align-items: center;
+    }
+    .Descripcion3{
+        width:100%;
+    }
+}

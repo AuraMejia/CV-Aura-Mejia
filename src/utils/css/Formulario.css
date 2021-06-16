@@ -1,0 +1,57 @@
+.Container_datos{
+    display: flex;
+    margin-top: 25px;
+}
+.Container_datos input{
+    background-color: #C4C4C4;
+    border: none;
+    font-size: 18px;
+    width: 400px;
+    margin-left: 90px;
+    height: 50px;
+    color: black;
+    border-radius: 5px;
+}
+.Container_datos h1{
+    margin-left: 85px;
+}
+.telefono{
+    color: black;
+}
+.Container_icono{
+    width: 40%;
+    margin-top: 100px;
+    height: 40%;
+    margin-left: 120px;
+}
+#mensaje {
+    height: 150px;
+    align-items: flex-start;
+}
+#enviar{
+    background-color: #2B2448;
+    color: white;
+    border-radius: 25px;
+    font-size: 20px;
+    width: 150px;
+}
+/*RESPONSIVE DE 600 a 800*/
+@media screen and (min-width:600px) and (max-width: 800px){
+    .Container_datos{
+        margin-right: 55px;
+    }
+    .Container_icono img{
+        margin-right: 400px;
+        margin-left: -55px;
+        width: 100%;
+    }
+    .Container_datos input{
+        margin: 0;
+        width: 300px;
+    }
+    .Container_datos h1{
+        margin-left: 5px;
+    }
+
+
+}
