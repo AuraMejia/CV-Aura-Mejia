@@ -1,4 +1,4 @@
-.Habilidades{
+.Habilidades{ /*General container*/
     background-color: #2B2448;
     justify-content: space-between;
     color: white;
@@ -11,7 +11,7 @@
     justify-content: center;
 
 }
-.Container_icono1 img{
+.Container_icono1 img{ /*Picture*/
     display: flex;
     width: 60%;
     margin-top: 25px;
@@ -19,21 +19,17 @@
 
 }
 
-.Container_habilidades_2{
+.Container_habilidades_2{ /*Right part*/
     text-align: left;
     margin-top: 89px; 
 
  }
- .Container_habilidades_1{
+ .Container_habilidades_1{ /*Left part*/
     text-align: left;  
     margin-left: 75px;
  }
  /*RESPONSIVE DE 600 a 800*/
-@media screen and (min-width:600px) and (max-width: 800px){
-    .Habilidades{
-        width: 100%;
-        
-    }   
+@media screen and (min-width:600px) and (max-width: 800px){   
     .Container_habilidades_1{
         margin-left: 15px;
     }

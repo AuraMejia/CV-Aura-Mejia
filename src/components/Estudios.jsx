@@ -1,8 +1,8 @@
-import React from 'react'
-import '../utils/css/Estudios.css'
-import Icono_estudios from '../utils/Images/vector_estudios.svg'
+import React from 'react' /*Import React*/ 
+import '../utils/css/Estudios.css' /*Import the styles*/
+import Icono_estudios from '../utils/Images/vector_estudios.svg'  /*Import the images*/
 
-function Estudios () {
+function Estudios () { /*Name of the function*/
     return (
         <div className="Container_Estudios">
 
@@ -50,4 +50,4 @@ function Estudios () {
 
     )
 }
-export default Estudios 
+export default Estudios  /*Export of the funcion in the App.js*/

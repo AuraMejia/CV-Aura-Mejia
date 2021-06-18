@@ -1,10 +1,10 @@
-.Container_intereses{
+.Container_intereses{ /*General Container*/
     display: flex;
     margin-left: 65px;
     margin-top: 65px;
     margin-right: 65px;
 }
-.Descripcion3{
+.Descripcion3{ /*Text*/
         background-color: #7F0505;
         color: white;
         padding: 35px;
@@ -16,11 +16,11 @@
         margin-right: 55px;
 
 }
-.Descripcion3 h1{
+.Descripcion3 h1{ /*Tittle of the text*/
     text-align: center;
     
 }
-.Container_foto4 img{
+.Container_foto4 img{ /* Left Image*/
     width: 70%;
     height: 70%;
     border-radius: 15px;

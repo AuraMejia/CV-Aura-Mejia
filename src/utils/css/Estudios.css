@@ -1,29 +1,32 @@
 
-.Container_Estudios{
+.Container_Estudios{ /*General Container of the page*/
     background-color: #2B2448;
     color: white;
     display: flex;
-    padding-left: 100px;
+    padding-left: 210px;
+    height: 450px;
     margin-top: -65px;   
+
 }
-.Desarrollo {
+.Desarrollo { /*Text of the component*/
     display: flex;
     align-items: center;
     justify-content: space-around;
    
 }
-h3{
+h3{ /*Tittle*/ 
     font-family: Raleway;
     font-weight: 400;
 }
-.Container_img  img {
+.Container_img  img { /*Image that we import in the jsx from the folder of utils*/
     width:80%;
     height: 80%;
     margin-top: 55px;
-    margin-left: 120px;
+    float: left;
+    margin-left: 150px;
 }
 
-.Educacion{
+.Educacion{ /*Second general component*/
     margin-top: 20px;
     font-size: 16px;
 }

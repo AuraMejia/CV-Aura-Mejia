@@ -1,8 +1,8 @@
-.Container_datos{
+.Container_datos{ /*General Container*/
     display: flex;
     margin-top: 25px;
 }
-.Container_datos input{
+.Container_datos input{ /*Styles of the input in the form*/
     background-color: #C4C4C4;
     border: none;
     font-size: 18px;
@@ -12,10 +12,10 @@
     color: black;
     border-radius: 5px;
 }
-.Container_datos h1{
+.Container_datos h1{ /*Tittle*/
     margin-left: 85px;
 }
-.telefono{
+.telefono{ 
     color: black;
 }
 .Container_icono{
@@ -28,12 +28,13 @@
     height: 150px;
     align-items: flex-start;
 }
-#enviar{
+#enviar{ /*Button styles*/
     background-color: #2B2448;
     color: white;
     border-radius: 25px;
     font-size: 20px;
     width: 150px;
+    cursor: pointer;
 }
 /*RESPONSIVE DE 600 a 800*/
 @media screen and (min-width:600px) and (max-width: 800px){

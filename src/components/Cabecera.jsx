@@ -1,34 +1,34 @@
-import React from 'react'
-import '../utils/css/Cabecera.css'
-import Columnas from '../utils/Images/columnas.PNG'
-import foto1 from '../utils/Images/foto_cabecera.jpeg'
-import {Link, BrowserRouter} from 'react-router-dom'
+import React from 'react' /*Import React*/ 
+import '../utils/css/Cabecera.css'/*Import the styles*/
+import Columnas from '../utils/Images/columnas.PNG' /*Import the images*/
+import foto1 from '../utils/Images/foto_cabecera.jpeg' /*Import the images*/
+import {Link, BrowserRouter} from 'react-router-dom' /*We are going to use this part to move in the Single page with the buttons to the other components*/ 
 
 
-function Cabecera () {
+function Cabecera () { /*Name of the function*/
     return (
-        <div className="Container_Cabecera">
+        <div className="Container_Cabecera"> 
             
             <div className="Container_logo1">  
             <img id="img1" src={Columnas} alt="Esta es la img" />
             </div>
 
             <div className="Botones">
-            <BrowserRouter><Link to="#/Perfil">
+            <Link exact to="/Perfil">
                 <button>Sobre mí</button>
             </Link>
 
-            <Link to="/Academia">
+            <Link exact to="/Academia">
                 <button>Estudios y Experiencia</button>
             </Link>
 
-            <Link to="/Projects">
+            <Link exact to="/Projects">
                 <button>Proyectos</button>
             </Link>
 
-            <Link to="/Escribe">
+            <Link exact to="/Escribe">
                 <button>Escríbeme</button>
-            </Link></BrowserRouter>
+            </Link>
             </div>
 
 
@@ -47,4 +47,4 @@ function Cabecera () {
         </div>
     )
 }
-export default Cabecera
+export default Cabecera /*Export of the funcion in the App.js*/

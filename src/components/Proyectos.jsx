@@ -1,9 +1,9 @@
-import React from 'react'
-import '../utils/css/Proyectos.css'
-import Icono_proyectos from '../utils/Images/proyectos.svg'
+import React from 'react' /*Import React*/ 
+import '../utils/css/Proyectos.css' /*Import the styles*/
+import Icono_proyectos from '../utils/Images/proyectos.svg' /*Import the images*/
 
 
-function Proyectos () {
+function Proyectos () { /*Name of the function*/
     return (
     <div className="Container_Proyectos">
         
@@ -11,7 +11,7 @@ function Proyectos () {
             <h1> 
                 Proyectos
             </h1>
-           <button>Signos zoodiacales</button>
+           <a href="https://auramejia.github.io/Signos-Zoodiacales/"><button>Signos zoodiacales</button></a>
             </div>
             
             <div className="Container_icono_project">  

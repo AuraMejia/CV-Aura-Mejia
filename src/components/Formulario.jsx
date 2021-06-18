@@ -1,6 +1,6 @@
-import React from 'react'
-import '../utils/css/Formulario.css'
-import Icono_form from '../utils/Images/formulario.svg'
+import React from 'react' /*Import React*/ 
+import '../utils/css/Formulario.css'  /*Import the styles*/
+import Icono_form from '../utils/Images/formulario.svg' /*Import the images*/
 
 class Formulario extends React.Component {
 
@@ -34,4 +34,4 @@ class Formulario extends React.Component {
   }
   
  
-export default Formulario
+export default Formulario /*Export of the funcion in the App.js*/

@@ -1,5 +1,5 @@
-
-import Cabecera from './components/Cabecera'
+/*Import the component of each component that is going to show in the principal page. It works at the same form in the 2 line to the 16 line */
+import Cabecera from './components/Cabecera' 
 import SobreMi from './components/SobreMi'
 import Estudios from './components/Estudios'
 import Intereses from './components/Intereses'
@@ -14,17 +14,17 @@ import Academia from "./pages/Academia.jsx"
 import Escribe from "./pages/Escribe.jsx"
 import GlobalStyle from './globalStyles.js'
 import Projects from "./pages/Projects"
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom" /*It allows the possiblity of change the contents of the index. We have to install it in the package.json*/
 import './App.css';
 
 function App() {
   return (
     <div className="App">
 
-      <Cabecera/>
-
+  
       <Router>
-      <GlobalStyle/>
+      <Cabecera/>
+      <GlobalStyle/> 
         <Switch>
 
           <Route path="/" exact>

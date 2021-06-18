@@ -1,24 +1,24 @@
-.Container_Experiencia{
+.Container_Experiencia{ /*General Container*/
     display: flex;
     margin-right: 75px;
     margin-top: 5px;
 }
-.Desarrollo2 {
+.Desarrollo2 { /*Text*/
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.Desarrollo2 a{
+.Desarrollo2 a{ /*It will show us the Instagram of the Sack*/
     color:white;
     text-decoration: none;
 }
-.Container_imagen img{
+.Container_imagen img{  
     width: 80%;
     height: 80%;
     margin-left: 98px;
     border-radius: 15px;
 }
-.Descripcion1{
+.Descripcion1{ /*It will show us the first part of the component*/
     background-color: #7F0505;
     color: white;
     width: 70%;
@@ -29,7 +29,7 @@
     margin-top: 65px;
 
 }
-.Descripcion1 h1{
+.Descripcion1 h1{ /*It will show us the first partof the component in the tittle*/
     text-align: center;
 }
 

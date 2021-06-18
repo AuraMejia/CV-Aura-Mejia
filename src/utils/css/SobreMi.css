@@ -1,16 +1,16 @@
-.Container_Mi{
+.Container_Mi{ /*General Container*/
     padding: 10px;
     display: flex;
     margin-top: 35px;
 }
-.Container_foto img{
+.Container_foto img{  /*Right Image*/
     display: flex;
     width: 80%;
     height: 100%;
     margin-left: 25px;
     border-radius: 15px;
 }
-.Descripcion{
+.Descripcion{ /*Text of the component*/
     background-color: #7F0505;
     color: white;
     padding: 35px;
@@ -19,7 +19,7 @@
     margin-left: 75px;
     border-radius: 15px;
 }
-.Descripcion p{
+.Descripcion p{ 
     font-size: 18px;
     align-items: center;
     align-content: center;

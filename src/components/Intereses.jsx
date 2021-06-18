@@ -1,8 +1,8 @@
-import React from 'react'
-import '../utils/css/Intereses.css'
-import hobbies from '../utils/Images/hobbies.jpeg'
+import React from 'react' /*Import React*/ 
+import '../utils/css/Intereses.css' /*Import the styles*/
+import hobbies from '../utils/Images/hobbies.jpeg' /*Import the images*/
 
-function Intereses () {
+function Intereses () { /*Function name*/
     return (
         <div className="Container_intereses">
              <div className="Container_foto4">  
@@ -21,4 +21,4 @@ function Intereses () {
         </div>
     )
 }
-export default Intereses
+export default Intereses /*Export the function in the js*/

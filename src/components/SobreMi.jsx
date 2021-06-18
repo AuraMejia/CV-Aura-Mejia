@@ -1,7 +1,8 @@
-import React from 'react'
-import '../utils/css/SobreMi.css'
-import foto from '../utils/Images/foto_mi.jpeg'
-function SobreMi () {
+import React from 'react' /*Import React*/ 
+import '../utils/css/SobreMi.css' /*Import the styles*/
+import foto from '../utils/Images/foto_mi.jpeg' /*Import the images*/
+
+function SobreMi () {/*Name of the function*/
     return (
         <div className="Container_Mi">
             
@@ -21,4 +22,4 @@ function SobreMi () {
         </div>
     )
 }
-export default SobreMi
+export default SobreMi /*Export of the funcion in the App.js*/

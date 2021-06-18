@@ -1,12 +1,12 @@
-import React from 'react'
-import '../utils/css/Footer.css'
-import instagram from '../utils/Images/instagram.svg'
-import facebook from '../utils/Images/facebook.svg'
-import link from '../utils/Images/link.svg'
-import hub from '../utils/Images/git.svg'
-import computer from '../utils/Images/computer.svg'
+import React from 'react'  /*Import React*/ 
+import '../utils/css/Footer.css' /*Import the styles*/
+import instagram from '../utils/Images/instagram.svg'  /*Import the images*/
+import facebook from '../utils/Images/facebook.svg'  /*Import the images*/
+import link from '../utils/Images/link.svg'  /*Import the images*/
+import hub from '../utils/Images/git.svg'  /*Import the images*/
+import computer from '../utils/Images/computer.svg'  /*Import the images*/
 
-function Footer (){
+function Footer (){ /*Name of the function*/
     return (
         <div className="Container_Footer">
             <div className="Container_logo">  
@@ -16,12 +16,12 @@ function Footer (){
             <a href="https://github.com/AuraMejia"><img id="img1" src={hub} alt="Esta es la img" /></a>
             </div>
 
-            <div className="Container_img_central">  
+            <div className="Container_img_central">   
             <img id="img1" src={computer} alt="Esta es la img" />
             </div>
 
             <div className="Info"> 
-            <p>aurasofiamejia2805@gmail.com</p>
+            <p>aurasofiamejia2805@gmail.com</p> 
             <a href="https://wa.link/6fy2z9"><p>302-464-6286</p></a>
             <p>Bogotá, D.C.</p>
 
@@ -29,4 +29,4 @@ function Footer (){
         </div>
     )
 }
-export default Footer
+export default Footer /*Export the function in the App.js*/

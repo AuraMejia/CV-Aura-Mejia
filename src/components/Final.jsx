@@ -1,7 +1,7 @@
-import React from 'react'
-import '../utils/css/Final.css'
+import React from 'react'  /*Import React*/ 
+import '../utils/css/Final.css' /*Import the styles*/
 
-function  Final (){
+function  Final (){ /*Name of the function*/
     return (
         <div className="Pie_pagina"> 
             <p>Todos los derechos reservados a Aura Mejía</p>
@@ -9,4 +9,4 @@ function  Final (){
             </div>
     )
 }
-export default Final       
+export default Final  /*Export of the funcion in the App.js*/     

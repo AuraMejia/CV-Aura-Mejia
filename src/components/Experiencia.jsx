@@ -1,9 +1,9 @@
-import React from 'react'
-import '../utils/css/Experiencia.css'
-import foto3 from  '../utils/Images/experiencia.jpeg'
+import React from 'react' /*Import React*/ 
+import '../utils/css/Experiencia.css' /*Import the styles*/
+import foto3 from  '../utils/Images/experiencia.jpeg' /*Import the images*/
 
 
-function Experiencia () {
+function Experiencia () { /*Name of the function*/
     return (
         <div className="Container_Experiencia">
              <div className="Container_imagen">  
@@ -38,4 +38,4 @@ function Experiencia () {
     )
 }
 
-export default Experiencia
+export default Experiencia /*Export the function*/

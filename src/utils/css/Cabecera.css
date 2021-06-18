@@ -1,12 +1,12 @@
 
-.Container_Textos {
+.Container_Textos { /*It has the tittle and the text of description*/
     background-color: #2b2448;
     color: white;
     margin: 5px;
     display:flex;
     height: 500px;
 }
-.Titulo_Cabecera h1{
+.Titulo_Cabecera h1{ /*Styles of the tittle*/
     text-align: center;
     font-size: 70px;
 }
@@ -15,14 +15,14 @@
     margin-top: 50px;
     
 }
-.Container_foto1 img{
+.Container_foto1 img{ /*Left Image*/
     width: 60%;
     height: 80%;
     border-radius: 50%;
     margin-top: 45px;
     margin-left: 55px;
 }
-.Botones button{
+.Botones button{ /*Button of the styles that move us to the other components*/
     background-color: #7F0505;
     color: white;
     border-radius: 15px;
@@ -31,9 +31,10 @@
     justify-content: space-around;
     margin: 15px;
     padding: 10px;
+    cursor: pointer;
 
 }
-/*RESPONSIVE DE 600 a 800*/
+/*RESPONSIVE DOF 600 a 800*/
 @media screen and (min-width:600px) and (max-width: 800px){
 .Titulo_Cabecera {
     font-size: 20px;

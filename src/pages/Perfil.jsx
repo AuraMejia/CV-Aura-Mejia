@@ -1,9 +1,9 @@
-import React from "react"
-import Habilidades from "../components/Habilidades"
-import SobreMi from "../components/SobreMi"
+import React from "react" /*Import React*/ 
+import Habilidades from "../components/Habilidades" /*Import the component of Habilidades*/
+import SobreMi from "../components/SobreMi" /*Import the SobreMi*/
 
 
-const Perfil = () =>{
+const Perfil = () =>{ /*It is going to show us the components that we export. It works with the button*/
 	return(
 	<>
 	<SobreMi/>

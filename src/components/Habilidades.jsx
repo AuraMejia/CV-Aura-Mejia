@@ -1,8 +1,8 @@
-import React from 'react'
-import '../utils/css/Habilidades.css'
-import Icono_hab from '../utils/Images/habilidades.svg'
+import React from 'react' /*Import React*/ 
+import '../utils/css/Habilidades.css' /*Import the styles*/
+import Icono_hab from '../utils/Images/habilidades.svg'  /*Import the images*/
 
-function Habilidades (){
+function Habilidades (){ /*Name of the function*/
     return(
         <div className="Habilidades"> 
             
@@ -34,4 +34,4 @@ function Habilidades (){
     )
 
 }
-export default Habilidades
+export default Habilidades /*Export of the funcion in the App.js*/
