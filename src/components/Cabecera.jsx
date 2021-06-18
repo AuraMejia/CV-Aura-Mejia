@@ -2,7 +2,7 @@ import React from 'react' /*Import React*/
 import '../utils/css/Cabecera.css'/*Import the styles*/
 import Columnas from '../utils/Images/columnas.PNG' /*Import the images*/
 import foto1 from '../utils/Images/foto_cabecera.jpeg' /*Import the images*/
-import {Link, BrowserRouter} from 'react-router-dom' /*We are going to use this part to move in the Single page with the buttons to the other components*/ 
+import {Link} from 'react-router-dom' /*We are going to use this part to move in the Single page with the buttons to the other components*/ 
 
 
 function Cabecera () { /*Name of the function*/
