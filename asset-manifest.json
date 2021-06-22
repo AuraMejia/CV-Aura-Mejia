@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/CV-Aura-Mejia/static/css/main.6b8a80cc.chunk.css",
+    "main.js": "/CV-Aura-Mejia/static/js/main.201d5c6e.chunk.js",
+    "main.js.map": "/CV-Aura-Mejia/static/js/main.201d5c6e.chunk.js.map",
+    "runtime-main.js": "/CV-Aura-Mejia/static/js/runtime-main.6ee15a8c.js",
+    "runtime-main.js.map": "/CV-Aura-Mejia/static/js/runtime-main.6ee15a8c.js.map",
+    "static/js/2.839b77e1.chunk.js": "/CV-Aura-Mejia/static/js/2.839b77e1.chunk.js",
+    "static/js/2.839b77e1.chunk.js.map": "/CV-Aura-Mejia/static/js/2.839b77e1.chunk.js.map",
+    "index.html": "/CV-Aura-Mejia/index.html",
+    "static/css/main.6b8a80cc.chunk.css.map": "/CV-Aura-Mejia/static/css/main.6b8a80cc.chunk.css.map",
+    "static/js/2.839b77e1.chunk.js.LICENSE.txt": "/CV-Aura-Mejia/static/js/2.839b77e1.chunk.js.LICENSE.txt",
+    "static/media/Raleway.7caf4b6f.woff": "/CV-Aura-Mejia/static/media/Raleway.7caf4b6f.woff",
+    "static/media/columnas.fde28a59.PNG": "/CV-Aura-Mejia/static/media/columnas.fde28a59.PNG",
+    "static/media/computer.221b15e5.svg": "/CV-Aura-Mejia/static/media/computer.221b15e5.svg",
+    "static/media/experiencia.a61f7533.jpeg": "/CV-Aura-Mejia/static/media/experiencia.a61f7533.jpeg",
+    "static/media/facebook.ac4ff9c4.svg": "/CV-Aura-Mejia/static/media/facebook.ac4ff9c4.svg",
+    "static/media/formulario.9d2937ba.svg": "/CV-Aura-Mejia/static/media/formulario.9d2937ba.svg",
+    "static/media/foto_cabecera.0ce8754d.jpeg": "/CV-Aura-Mejia/static/media/foto_cabecera.0ce8754d.jpeg",
+    "static/media/foto_mi.f02c6804.jpeg": "/CV-Aura-Mejia/static/media/foto_mi.f02c6804.jpeg",
+    "static/media/git.8696343c.svg": "/CV-Aura-Mejia/static/media/git.8696343c.svg",
+    "static/media/habilidades.43cce865.svg": "/CV-Aura-Mejia/static/media/habilidades.43cce865.svg",
+    "static/media/hobbies.66e95a0d.jpeg": "/CV-Aura-Mejia/static/media/hobbies.66e95a0d.jpeg",
+    "static/media/instagram.4174edde.svg": "/CV-Aura-Mejia/static/media/instagram.4174edde.svg",
+    "static/media/link.07e0a7c0.svg": "/CV-Aura-Mejia/static/media/link.07e0a7c0.svg",
+    "static/media/proyectos.ea1a123a.svg": "/CV-Aura-Mejia/static/media/proyectos.ea1a123a.svg",
+    "static/media/vector_estudios.e9c5d257.svg": "/CV-Aura-Mejia/static/media/vector_estudios.e9c5d257.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6ee15a8c.js",
+    "static/js/2.839b77e1.chunk.js",
+    "static/css/main.6b8a80cc.chunk.css",
+    "static/js/main.201d5c6e.chunk.js"
+  ]
+}
